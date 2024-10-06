@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 419041331}
   - component: {fileID: 419041330}
   - component: {fileID: 419041332}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -219,7 +219,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
-  moveSpeed: 4
+  walkSpeed: 0
+  sprintSpeed: 0
 --- !u!1 &541054573
 GameObject:
   m_ObjectHideFlags: 3
@@ -610,7 +611,7 @@ GameObject:
   - component: {fileID: 1049179920}
   - component: {fileID: 1049179921}
   - component: {fileID: 1049179922}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -647,7 +648,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 963194228}
-  moveSpeed: 4
+  walkSpeed: 4
+  sprintSpeed: 8
 --- !u!143 &1049179922
 CharacterController:
   m_ObjectHideFlags: 0
@@ -938,6 +940,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1643441101}
   - component: {fileID: 1643441100}
+  - component: {fileID: 1643441102}
   m_Layer: 0
   m_Name: FreeLook Camera
   m_TagString: Untagged
@@ -1068,6 +1071,36 @@ Transform:
   - {fileID: 1779675589}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1643441102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643441099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e501d18bb52cf8c40b1853ca4904654f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CollideAgainst:
+    serializedVersion: 2
+    m_Bits: 1
+  m_IgnoreTag: Player
+  m_TransparentLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_MinimumDistanceFromTarget: 0.1
+  m_AvoidObstacles: 1
+  m_DistanceLimit: 0
+  m_MinimumOcclusionTime: 0
+  m_CameraRadius: 0.1
+  m_Strategy: 0
+  m_MaximumEffort: 4
+  m_SmoothingTime: 0
+  m_Damping: 0.5
+  m_DampingWhenOccluded: 0.5
+  m_OptimalTargetDistance: 0
 --- !u!1 &1716769759
 GameObject:
   m_ObjectHideFlags: 3
@@ -1206,7 +1239,7 @@ GameObject:
   - component: {fileID: 1757075632}
   - component: {fileID: 1757075634}
   - component: {fileID: 1757075633}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
