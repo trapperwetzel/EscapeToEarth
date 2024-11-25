@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|c:\\users\\erc\\documents\\github\\escapetoearth\\escapetoearth\\assets\\interactions\\scripts\\thirdpersonmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\interactions\\scripts\\thirdpersonmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\assets\\followtarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\followtarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|c:\\users\\erc\\documents\\github\\escapetoearth\\escapetoearth\\assets\\enemy\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ThirdPersonMovement.cs",
-              "DocumentMoniker": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Interactions\\Scripts\\ThirdPersonMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Interactions\\Scripts\\ThirdPersonMovement.cs",
-              "ToolTip": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Interactions\\Scripts\\ThirdPersonMovement.cs*",
-              "RelativeToolTip": "Assets\\Interactions\\Scripts\\ThirdPersonMovement.cs*",
-              "ViewState": "AgIAADoAAAAAAAAAAAAnwEwAAAAjAAAAAAAAAA==",
+              "Title": "EnemyAttack.cs",
+              "DocumentMoniker": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\EnemyAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Enemy\\EnemyAttack.cs",
+              "ToolTip": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\EnemyAttack.cs",
+              "RelativeToolTip": "Assets\\Enemy\\EnemyAttack.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T20:41:43.704Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "followTarget.cs",
-              "DocumentMoniker": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\followTarget.cs",
-              "RelativeDocumentMoniker": "Assets\\followTarget.cs",
-              "ToolTip": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\followTarget.cs",
-              "RelativeToolTip": "Assets\\followTarget.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAIwC4AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T20:38:45.655Z",
+              "WhenOpened": "2024-11-25T03:48:46.816Z",
               "EditorCaption": ""
             }
           ]
