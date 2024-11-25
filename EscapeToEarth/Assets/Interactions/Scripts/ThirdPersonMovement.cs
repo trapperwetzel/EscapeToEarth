@@ -57,14 +57,13 @@ public class ThirdPersonMovement : MonoBehaviour
         }
 
         // Reset Animator's Transform (prevents offset issues)
-        anim.transform.localPosition = Vector3.zero;
-        anim.transform.localEulerAngles = Vector3.zero;
+       // anim.transform.localPosition = Vector3.zero;
+        //anim.transform.localEulerAngles = Vector3.zero;
 
         // Movement Input
         movement = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         Vector3 direction = new Vector3(movement.x, 0, movement.y).normalized;
 
-        // Rotate Character to Camera's Forward Direction
         if (direction.magnitude >= 0.1f)
         {
             // Calculate target angle relative to camera
@@ -79,24 +78,22 @@ public class ThirdPersonMovement : MonoBehaviour
             controller.Move(moveDirection.normalized * trueSpeed * Time.deltaTime);
 
             // Update Animator based on speed
-            if (sprinting)
-            {
-                anim.SetFloat("Speed", 2); // Sprinting
-            }
-            else
-            {
-                anim.SetFloat("Speed", 1); // Walking
-            }
+            anim.SetFloat("Speed", sprinting ? 2 : 1); // 2 for Sprinting, 1 for Walking
         }
         else
         {
             anim.SetFloat("Speed", 0); // Idle
         }
 
+        // Sync Character with Camera Forward Direction
+        if (movement.magnitude < 0.1f)
+        {
+            transform.rotation = Quaternion.Euler(0f, cam.eulerAngles.y, 0f);
+        }
+
         // Jumping
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            // Calculate jump velocity
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
 

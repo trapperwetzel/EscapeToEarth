@@ -6,7 +6,7 @@ using UnityEngine;
 public class FollowTarget : MonoBehaviour
 {
     [SerializeField] private Transform followTarget;
-
+    [SerializeField] private Transform player; // Reference to the player character
     [SerializeField] private float rotationalSpeed = -10f;
     [SerializeField] private float bottomClamp = -40f;
     [SerializeField] private float topClamp = 70f;
@@ -17,6 +17,12 @@ public class FollowTarget : MonoBehaviour
     private void LateUpdate()
     {
         CameraLogic();
+
+        // Sync Player's Y Rotation with Camera's Y Rotation
+        Vector3 playerRotation = followTarget.rotation.eulerAngles;
+        playerRotation.x = 0; // Keep player upright
+        playerRotation.z = 0; // Prevent unwanted tilt
+        player.rotation = Quaternion.Euler(playerRotation);
     }
 
     private void CameraLogic()
