@@ -14,7 +14,7 @@ public class ThirdPersonMovement : MonoBehaviour
     Vector2 movement;
     public float walkSpeed;
     public float sprintSpeed;
-    bool sprinting;
+    public bool sprinting;
     float trueSpeed;
 
     // Jumping
