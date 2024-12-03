@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\feven\\OneDrive\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|C:\\Users\\feven\\OneDrive\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\assets\\footsteps - essentials\\footstepsscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\footsteps - essentials\\footstepsscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|c:\\users\\feven\\onedrive\\documents\\github\\escapetoearth\\escapetoearth\\assets\\enemy\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|c:\\users\\feven\\onedrive\\documents\\github\\escapetoearth\\escapetoearth\\assets\\footsteps - essentials\\jumping script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\footsteps - essentials\\jumping script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|c:\\users\\feven\\onedrive\\documents\\github\\escapetoearth\\escapetoearth\\assets\\footsteps - essentials\\newfoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\footsteps - essentials\\newfoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|C:\\Users\\feven\\OneDrive\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\assets\\interactions\\scripts\\thirdpersonmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\interactions\\scripts\\thirdpersonmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|C:\\Users\\feven\\OneDrive\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\assets\\footsteps - essentials\\jumping script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\footsteps - essentials\\jumping script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|c:\\users\\feven\\onedrive\\documents\\github\\escapetoearth\\escapetoearth\\assets\\footsteps - essentials\\footstepsscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\footsteps - essentials\\footstepsscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyMovement.cs",
+              "DocumentMoniker": "C:\\Users\\feven\\OneDrive\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\EnemyMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Enemy\\EnemyMovement.cs",
+              "ToolTip": "C:\\Users\\feven\\OneDrive\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\EnemyMovement.cs",
+              "RelativeToolTip": "Assets\\Enemy\\EnemyMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T22:43:06.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "NewFoot.cs",
+              "DocumentMoniker": "C:\\Users\\feven\\OneDrive\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Footsteps - Essentials\\NewFoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Footsteps - Essentials\\NewFoot.cs",
+              "ToolTip": "C:\\Users\\feven\\OneDrive\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Footsteps - Essentials\\NewFoot.cs",
+              "RelativeToolTip": "Assets\\Footsteps - Essentials\\NewFoot.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAcwDoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T19:25:02.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "JUmping script.cs",
               "DocumentMoniker": "C:\\Users\\feven\\OneDrive\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Footsteps - Essentials\\JUmping script.cs",
               "RelativeDocumentMoniker": "Assets\\Footsteps - Essentials\\JUmping script.cs",
@@ -45,19 +79,20 @@
               "RelativeDocumentMoniker": "Assets\\Interactions\\Scripts\\ThirdPersonMovement.cs",
               "ToolTip": "C:\\Users\\feven\\OneDrive\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Interactions\\Scripts\\ThirdPersonMovement.cs",
               "RelativeToolTip": "Assets\\Interactions\\Scripts\\ThirdPersonMovement.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwDIAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T01:29:45.362Z"
+              "WhenOpened": "2024-12-03T01:29:45.362Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "FootStepsScript.cs",
               "DocumentMoniker": "C:\\Users\\feven\\OneDrive\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Footsteps - Essentials\\FootStepsScript.cs",
               "RelativeDocumentMoniker": "Assets\\Footsteps - Essentials\\FootStepsScript.cs",
               "ToolTip": "C:\\Users\\feven\\OneDrive\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Footsteps - Essentials\\FootStepsScript.cs",
               "RelativeToolTip": "Assets\\Footsteps - Essentials\\FootStepsScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T14:48:27.808Z",
               "EditorCaption": ""
