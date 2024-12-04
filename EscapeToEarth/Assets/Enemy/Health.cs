@@ -1,5 +1,6 @@
 // Written by Manav Mendonca
 // Updated on 12/03/2024
+//Updated by Julian Van Beusekom 12/4/24
 
 using System.Collections;
 using UnityEngine;
@@ -7,8 +8,8 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     public float maxHealth = 100f;
-    private float currentHealth;
-    private bool isTakingDamage = false;
+    public float currentHealth;
+    public bool isTakingDamage = false;
 
     void Start()
     {
