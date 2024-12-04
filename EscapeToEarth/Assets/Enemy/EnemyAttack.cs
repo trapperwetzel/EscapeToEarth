@@ -1,4 +1,8 @@
+// Written by Manav Mendonca
+// Updated on 12/03/2024
+
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyAttack : MonoBehaviour
 {
@@ -9,37 +13,44 @@ public class EnemyAttack : MonoBehaviour
     private float nextAttackTime = 0f;
     private Transform player;
     private Animator animator;
+    private NavMeshAgent agent;
 
     void Start()
     {
-        // Find the player by tag
         player = GameObject.FindGameObjectWithTag("Player").transform;
         animator = GetComponent<Animator>();
+        agent = GetComponent<NavMeshAgent>();
     }
 
     void Update()
     {
-        // Check if the player is in range
-        if (player != null && Vector3.Distance(transform.position, player.position) <= attackRange)
+        if (player == null) return;
+
+        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+
+        if (distanceToPlayer <= attackRange)
         {
-            // Trigger an attack if cooldown has passed
+            agent.isStopped = true;
             if (Time.time >= nextAttackTime)
             {
                 Attack();
                 nextAttackTime = Time.time + attackCooldown;
             }
         }
+        else
+        {
+            agent.isStopped = false;
+            agent.SetDestination(player.position);
+        }
     }
 
     void Attack()
     {
-        // Play attack animation
         if (animator != null)
         {
             animator.SetTrigger("Attack");
         }
 
-        // Damage the player
         Health playerHealth = player.GetComponent<Health>();
         if (playerHealth != null)
         {

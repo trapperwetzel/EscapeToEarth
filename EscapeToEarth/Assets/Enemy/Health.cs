@@ -1,30 +1,58 @@
+// Written by Manav Mendonca
+// Updated on 12/03/2024
+
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Health : MonoBehaviour
 {
     public float maxHealth = 100f;
     private float currentHealth;
+    private bool isTakingDamage = false;
 
     void Start()
     {
         currentHealth = maxHealth;
+        Debug.Log($"{gameObject.name} initialized with health: {currentHealth}");
     }
 
     public void TakeDamage(float amount)
     {
+        if (currentHealth <= 0) return; // Prevent logic for already dead entities
+
         currentHealth -= amount;
+
         if (currentHealth <= 0)
         {
             Die();
+            return;
         }
+
+        Animator animator = GetComponent<Animator>();
+        if (animator != null && !isTakingDamage)
+        {
+            isTakingDamage = true;
+            animator.SetTrigger("TakeDamage");
+            StartCoroutine(ResetDamageState());
+        }
+    }
+
+    private IEnumerator ResetDamageState()
+    {
+        yield return new WaitForSeconds(1f);
+        isTakingDamage = false;
     }
 
     void Die()
     {
-        // Handle death (e.g., play animation, destroy object, etc.)
+        Debug.Log($"{gameObject.name} triggered Die()");
+        Animator animator = GetComponent<Animator>();
+        if (animator != null)
+        {
+            animator.SetTrigger("Die");
+        }
+
         Debug.Log($"{gameObject.name} has died!");
-        Destroy(gameObject); // Temporarily destroy the object
+        Destroy(gameObject, 2f); // Delay destruction to allow animation playback
     }
 }
