@@ -5,8 +5,8 @@ using UnityEngine;
 public class FootstepScript : MonoBehaviour
 {
     public AudioSource footstepAudio;
-    public float stepInterval = 0.3f; // Time between steps in seconds
-    private float nextStepTime = 0f;
+    public float stepInterval = 0.9f; // Time between steps in seconds
+    private float nextStepTime = 0.2f;
 
 
 
@@ -36,6 +36,7 @@ public class FootstepScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Make it so up down keys work
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
         {
             if (Time.time >= nextStepTime) // Check if enough time has passed
@@ -58,7 +59,7 @@ public class FootstepScript : MonoBehaviour
             }
             else
             {
-                stepInterval = 0.3f; // Default interval
+                stepInterval = 0.9f; // Default interval
             }
         }
 

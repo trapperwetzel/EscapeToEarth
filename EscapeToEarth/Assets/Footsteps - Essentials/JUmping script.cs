@@ -19,7 +19,7 @@ public class JumpSound : MonoBehaviour
         // Play jump sound when space is pressed
         if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
         {
-            isJumping = true;
+            
             PlaySound(jumpSound);
         }
     }
