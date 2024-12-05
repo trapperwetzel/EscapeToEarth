@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Julian\\Documents\\GitHub\\EscapeToEarth2\\EscapeToEarth\\",
+  "WorkspaceRootPath": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|C:\\Users\\Julian\\Documents\\GitHub\\EscapeToEarth2\\EscapeToEarth\\assets\\enemy\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|c:\\users\\julian\\documents\\github\\escapetoearth2\\escapetoearth\\assets\\heathbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\heathbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|C:\\Users\\Julian\\Documents\\GitHub\\EscapeToEarth2\\EscapeToEarth\\assets\\enemy\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\assets\\enemy\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|c:\\users\\julian\\documents\\github\\escapetoearth2\\escapetoearth\\assets\\enemy\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\assets\\enemy\\enemyanimatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\enemyanimatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|c:\\users\\erc\\documents\\github\\escapetoearth\\escapetoearth\\assets\\enemy\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|C:\\Users\\Julian\\Documents\\GitHub\\EscapeToEarth2\\EscapeToEarth\\assets\\enemy\\enemyanimatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\enemyanimatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\assets\\enemy\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,13 +30,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "EnemyMovement.cs",
-              "DocumentMoniker": "C:\\Users\\Julian\\Documents\\GitHub\\EscapeToEarth2\\EscapeToEarth\\Assets\\Enemy\\EnemyMovement.cs",
+              "DocumentMoniker": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\EnemyMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Enemy\\EnemyMovement.cs",
-              "ToolTip": "C:\\Users\\Julian\\Documents\\GitHub\\EscapeToEarth2\\EscapeToEarth\\Assets\\Enemy\\EnemyMovement.cs",
+              "ToolTip": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\EnemyMovement.cs",
               "RelativeToolTip": "Assets\\Enemy\\EnemyMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T22:43:06.153Z",
               "IsPinned": true,
@@ -48,52 +44,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "EnemyAnimatorController.cs",
-              "DocumentMoniker": "C:\\Users\\Julian\\Documents\\GitHub\\EscapeToEarth2\\EscapeToEarth\\Assets\\Enemy\\EnemyAnimatorController.cs",
+              "DocumentMoniker": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\EnemyAnimatorController.cs",
               "RelativeDocumentMoniker": "Assets\\Enemy\\EnemyAnimatorController.cs",
-              "ToolTip": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\EnemyAnimatorController.cs*",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\EnemyAnimatorController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\EnemyAnimatorController.cs",
+              "RelativeToolTip": "Assets\\Enemy\\EnemyAnimatorController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T03:19:54.741Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "heathBar.cs",
-              "DocumentMoniker": "C:\\Users\\Julian\\Documents\\GitHub\\EscapeToEarth2\\EscapeToEarth\\Assets\\heathBar.cs",
-              "RelativeDocumentMoniker": "Assets\\heathBar.cs",
-              "ToolTip": "C:\\Users\\Julian\\Documents\\GitHub\\EscapeToEarth2\\EscapeToEarth\\Assets\\heathBar.cs",
-              "RelativeToolTip": "Assets\\heathBar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Health.cs",
+              "DocumentMoniker": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Enemy\\Health.cs",
+              "ToolTip": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\Health.cs",
+              "RelativeToolTip": "Assets\\Enemy\\Health.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T20:05:15.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T03:27:17.887Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Health.cs",
-              "DocumentMoniker": "C:\\Users\\Julian\\Documents\\GitHub\\EscapeToEarth2\\EscapeToEarth\\Assets\\Enemy\\Health.cs",
-              "RelativeDocumentMoniker": "Assets\\Enemy\\Health.cs",
-              "ToolTip": "C:\\Users\\Julian\\Documents\\GitHub\\EscapeToEarth2\\EscapeToEarth\\Assets\\Enemy\\Health.cs",
-              "RelativeToolTip": "Assets\\Enemy\\Health.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T03:27:17.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "EnemyAttack.cs",
-              "DocumentMoniker": "C:\\Users\\Julian\\Documents\\GitHub\\EscapeToEarth2\\EscapeToEarth\\Assets\\Enemy\\EnemyAttack.cs",
+              "DocumentMoniker": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\EnemyAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Enemy\\EnemyAttack.cs",
-              "ToolTip": "C:\\Users\\Julian\\Documents\\GitHub\\EscapeToEarth2\\EscapeToEarth\\Assets\\Enemy\\EnemyAttack.cs",
-              "RelativeToolTip": "Assets\\Enemy\\EnemyAttack.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwAMAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\EnemyAttack.cs*",
+              "RelativeToolTip": "Assets\\Enemy\\EnemyAttack.cs*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T03:24:58.981Z",
               "EditorCaption": ""
