@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\enemyattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|c:\\users\\erc\\documents\\github\\escapetoearth\\escapetoearth\\assets\\enemy\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\assets\\enemy\\enemyanimatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\enemyanimatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|c:\\users\\erc\\documents\\github\\escapetoearth\\escapetoearth\\assets\\enemy\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\enemy\\enemymovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\assets\\enemy\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EnemyMovement.cs",
               "DocumentMoniker": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\EnemyMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Enemy\\EnemyMovement.cs",
@@ -44,16 +44,17 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "EnemyAnimatorController.cs",
               "DocumentMoniker": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\EnemyAnimatorController.cs",
               "RelativeDocumentMoniker": "Assets\\Enemy\\EnemyAnimatorController.cs",
               "ToolTip": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\EnemyAnimatorController.cs",
               "RelativeToolTip": "Assets\\Enemy\\EnemyAnimatorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T03:19:54.741Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -75,7 +76,7 @@
               "RelativeDocumentMoniker": "Assets\\Enemy\\EnemyAttack.cs",
               "ToolTip": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\Assets\\Enemy\\EnemyAttack.cs*",
               "RelativeToolTip": "Assets\\Enemy\\EnemyAttack.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCoAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T03:24:58.981Z",
               "EditorCaption": ""
