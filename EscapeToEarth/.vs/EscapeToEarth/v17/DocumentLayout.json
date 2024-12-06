@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ERC\\Documents\\GitHub\\EscapeToEarth\\EscapeToEarth\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Julian\\Documents\\GitHub\\EscapeToEarth2\\EscapeToEarth\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|c:\\users\\julian\\documents\\github\\escapetoearth2\\escapetoearth\\assets\\scr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4F114C8-2AC6-D8D6-5335-177320BEC1B6}|Assembly-CSharp.csproj|solutionrelative:assets\\scr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "scr.cs",
+              "DocumentMoniker": "C:\\Users\\Julian\\Documents\\GitHub\\EscapeToEarth2\\EscapeToEarth\\Assets\\scr.cs",
+              "RelativeDocumentMoniker": "Assets\\scr.cs",
+              "ToolTip": "C:\\Users\\Julian\\Documents\\GitHub\\EscapeToEarth2\\EscapeToEarth\\Assets\\scr.cs*",
+              "RelativeToolTip": "Assets\\scr.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T01:10:47.755Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

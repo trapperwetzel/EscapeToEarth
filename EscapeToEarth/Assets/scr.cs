@@ -2,17 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class scr : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+//written by Julian Van Beusekom
+//12/5/24
 
-    // Update is called once per frame
+public class SwordFollower : MonoBehaviour
+{
+    public Transform handPosition; // Assign the Empty GameObject near the hand
+    public Vector3 offset; // Adjust for precise positioning
+
     void Update()
     {
-        
+        if (handPosition != null)
+        {
+            // Update the sword's position and rotation to match the hand
+            transform.position = handPosition.position + offset;
+            transform.rotation = handPosition.rotation;
+        }
     }
 }
+
