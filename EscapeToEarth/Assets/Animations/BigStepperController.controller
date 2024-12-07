@@ -46,7 +46,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 9dbeba91c318b3d439f2a6e26e48017a, type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: 8962fa08abe45d24e846666264d43420, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -161,7 +161,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: EnemyAnimator
+  m_Name: BigStepperController
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Speed
@@ -271,7 +271,7 @@ AnimatorStateMachine:
     m_Position: {x: 650, y: -50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7843069591369001223}
-    m_Position: {x: 20, y: -50, z: 0}
+    m_Position: {x: 190, y: -20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2936034679246586666}
     m_Position: {x: 250, y: -200, z: 0}
@@ -466,11 +466,11 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
+  m_TransitionDuration: 1
   m_TransitionOffset: 0
   m_ExitTime: 1
   m_HasExitTime: 0
-  m_HasFixedDuration: 0
+  m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1

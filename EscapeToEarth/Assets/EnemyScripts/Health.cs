@@ -36,6 +36,8 @@ public class Health : MonoBehaviour
             animator.SetTrigger("TakeDamage");
             StartCoroutine(ResetDamageState());
         }
+        Debug.Log($"{gameObject.name} is taking {amount} damage."); // see if health breaks
+
     }
 
     private IEnumerator ResetDamageState()
@@ -47,6 +49,7 @@ public class Health : MonoBehaviour
     void Die()
     {
         Debug.Log($"{gameObject.name} triggered Die()");
+
         Animator animator = GetComponent<Animator>();
         if (animator != null)
         {
@@ -54,6 +57,29 @@ public class Health : MonoBehaviour
         }
 
         Debug.Log($"{gameObject.name} has died!");
-        Destroy(gameObject, 2f); // Delay destruction to allow animation playback
+        StartCoroutine(Respawn()); // Start respawn process
     }
+    private IEnumerator Respawn() // Written by Manav
+    {
+        // wait for the death animation or effects to finish
+        yield return new WaitForSeconds(2f);
+
+        // Find the SpawnPoint
+        Transform spawnPoint = GameObject.Find("SpawnPoint")?.transform;
+        if (spawnPoint != null)
+        {
+            // Move the player to the spawn point
+            transform.position = spawnPoint.position;
+            Debug.Log("Respawned at spawn point!");
+        }
+        else
+        {
+            Debug.LogError("SpawnPoint not found in the scene!");
+        }
+
+        // Reset health to maximum
+        currentHealth = maxHealth;
+    }
+
+
 }

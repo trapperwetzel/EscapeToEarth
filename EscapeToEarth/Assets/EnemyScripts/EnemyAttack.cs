@@ -20,6 +20,8 @@ public class EnemyAttack : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        Debug.Log($"Player found: {player.name}");
     }
 
     void Update()
@@ -56,5 +58,6 @@ public class EnemyAttack : MonoBehaviour
         {
             playerHealth.TakeDamage(attackDamage);
         }
+        Debug.Log($"{gameObject.name} is attacking the player."); // check if damage is being dealt
     }
 }
