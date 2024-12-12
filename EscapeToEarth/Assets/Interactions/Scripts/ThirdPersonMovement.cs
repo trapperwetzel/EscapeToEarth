@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Written by Trapper Wetzel
+// Final Edit 12/08/2024
 public class ThirdPersonMovement : MonoBehaviour
 {
     public Transform cam; // Assign the camera Transform in the Inspector
